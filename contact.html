@@ -39,23 +39,28 @@
 </section>
 
 <section id="contact-details" class="section-p1">
-    <p>Har du spørgsmål eller brug for hjælp? Kontakt os for mere information om vores unikke fyrværkeri og særlige tilbud!</p>
-    <form>
-        <label for="name">Navn</label>
-        <input type="text" id="name" name="name" placeholder="Skriv dit navn" required>
+    <p>Har du et projekt i tankerne, eller vil du bare sige hej? Udfyld formularen nedenfor, så vender vi tilbage til dig hurtigst muligt!</p>
 
-        <label for="email">Email</label>
-        <input type="email" id="email" name="email" placeholder="Skriv din email" required>
+    <form class="contact-form">
+        <div class="form-group">
+            <label for="name">Navn</label>
+            <input type="text" id="name" name="name" placeholder="Dit fulde navn" required>
+        </div>
 
-        <label for="phone">Telefon</label>
-        <input type="tel" id="phone" name="phone" placeholder="Skriv dit telefonnummer" required>
+        <div class="form-group">
+            <label for="email">E-mail</label>
+            <input type="email" id="email" name="email" placeholder="Din e-mailadresse" required>
+        </div>
 
-        <label for="message">Besked</label>
-        <textarea id="message" name="message" placeholder="Skriv din besked" required></textarea>
+        <div class="form-group">
+            <label for="message">Besked</label>
+            <textarea id="message" name="message" rows="5" placeholder="Din besked" required></textarea>
+        </div>
 
-        <button class="normal" type="submit">Send</button>
+        <button type="submit" class="btn-submit">Send besked</button>
     </form>
 </section>
+
 
 <section id="newsletter" class="section-p1 section-m1">
     <div class="newstext">

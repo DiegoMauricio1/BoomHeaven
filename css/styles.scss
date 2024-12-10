@@ -430,12 +430,11 @@ button {
 
 #banner-campaign h2 {
 	color: #fff;
-	font-size: 30px;
 	padding: 10px 0;
 }
 
 
-#banner-campaign h2 span {
+#banner-campaign h3 span {
 	color: #ef3636;
 }
 
@@ -708,6 +707,8 @@ footer .copyright {
 	color: #ef3636;
 }
 
+
+
 button.added {
 	background-color: #28a745 !important; /* Green to indicate success */
 	color: white !important; /* Ensure the text color stays visible */
@@ -766,46 +767,77 @@ button.added {
 	padding: 14px;
 }
 
-
-#contact-details h3 {
+.contact-details {
+	padding: 40px;
+	background-color: #f9f9f9;
+	border-radius: 10px;
+	max-width: 600px;
+	margin: 20px auto;
 	text-align: center;
+	font-family: 'Arial', sans-serif;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-
-#contact-details p {
-	text-align: center;
+.contact-details h2 {
+	font-size: 2rem;
+	color: #333;
+	margin-bottom: 10px;
 }
 
+.contact-details p {
+	font-size: 1rem;
+	color: #666;
+	margin-bottom: 20px;
+}
 
-#contact-details form {
+.contact-form {
 	display: flex;
 	flex-direction: column;
-	text-align: center;
-	justify-content: center;
-	align-items: center;
-	padding-top: 8px;
+	gap: 15px;
 }
 
-
-#contact-details input {
-	width: 40%;
+.form-group {
+	text-align: left;
 }
 
-
-#contact-details textarea {
-	width: 40%;
-	height: 200px;
+.form-group label {
+	font-weight: bold;
+	font-size: 0.9rem;
+	color: #333;
+	margin-bottom: 5px;
+	display: inline-block;
 }
 
+.form-group input,
+.form-group textarea {
+	width: 100%;
+	padding: 10px;
+	font-size: 1rem;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	outline: none;
+	transition: border-color 0.3s ease;
+}
 
-#contact-details button {
+.form-group input:focus,
+.form-group textarea:focus {
+	border-color: #ef3636;
+}
+
+.btn-submit {
 	background-color: #ef3636;
 	color: #fff;
-	margin-top: 10px;
-	width: 40%;
+	padding: 12px 20px;
+	font-size: 1rem;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	transition: background-color 0.3s ease;
 }
 
-
+.btn-submit:hover {
+	background-color: red;
+}
 
 
 /* Cart Page */
