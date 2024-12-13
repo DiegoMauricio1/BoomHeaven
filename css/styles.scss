@@ -1124,15 +1124,20 @@ button.added {
 	#header .logo {
 		width: 60px;
 	}
-	h1 {
-		font-size: 38px;
-	}
-	h2 {
-		font-size: 32px;
-	}
 	#hero {
 		padding: 0 20px;
 		background-position: 55%;
+	}
+	#hero h1 {
+		font-size: 38px;
+	}
+
+	#hero h2 {
+		font-size: 28px;
+	}
+
+	#hero h3 {
+		font-size: 20px;
 	}
 	#product1 .pro {
 		width: 100%;
@@ -1191,6 +1196,11 @@ button.added {
 	}
 	#subtotal {
 		width: 100%;
+	}
+	@media (max-width: 300px) {
+		#vip-details img {
+			width: 200%;
+		}
 	}
 }
 
