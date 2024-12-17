@@ -738,6 +738,10 @@ footer .copyright {
 	font-size: 32px;
 }
 
+.single-pro-details video {
+	width: 60%;
+}
+
 
 
 button.added {
@@ -1114,6 +1118,9 @@ button.added {
 	#campaign-details video {
 		width: 70%;
 	}
+	.single-pro-details video {
+		width: 80%;
+	}
 }
 
 
@@ -1170,6 +1177,9 @@ button.added {
 		margin-right: 0;
 	}
 	#prodetails .single-pro-details {
+		width: 100%;
+	}
+	.single-pro-details video {
 		width: 100%;
 	}
 	#contact-details input {
