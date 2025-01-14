@@ -1155,8 +1155,8 @@ button.added {
 	#banner-campaign {
 		height: 50vh;
 	}
-	#banner-campaign h2 {
-		font-size: 20px;
+	#page-header h2 {
+		font-size: 24px;
 	}
 	#newsletter {
 		padding: 40px 20px;
@@ -1210,6 +1210,12 @@ button.added {
 	@media (max-width: 400px) {
 		#vip-details img {
 			width: 100%;
+		}
+		#banner h2 {
+			font-size: 20px;
+		}
+		#banner-campaign h2 {
+			font-size: 18px;
 		}
 	}
 }
